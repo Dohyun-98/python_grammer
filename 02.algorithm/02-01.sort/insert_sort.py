@@ -10,7 +10,7 @@ def insert_sort(array):
                 position = position -1
             else:
                 break
-        
+                
         array[position+1] = temp_value
     
     return array

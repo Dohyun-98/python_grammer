@@ -3,4 +3,4 @@
 STATUS_CODE = { 200 : "OK", 301: "Moved Permanently"}
 
 def status_code_meaning(number):
-    return STATUS_CODE[number]
+    return STATUS_CODE[number]  
