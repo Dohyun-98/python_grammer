@@ -91,5 +91,35 @@ f2 = 3.939
 print(">>>>+")
 print('i1 + i2 :',i1 + i2)
 print('f1 + f2 :',f1 + f2)
+print()
 
+# 형 변환 실습
+a = 3.
+b = 6
+c = .7
+d = 12.7
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
 
+# 형 변환
+print(float(b))
+print(int(c))
+print(int(d))
+print(int(True)) # True : 1 False : 0
+print(complex(3))
+print(complex('3')) # 문자형 -> 숫자형
+print(complex(False))
+
+# 수치 연산 함수
+print(abs(-7))
+x,y = divmod(100,8)
+print(x,y)
+print(pow(5,3))
+
+# 외부 모듈
+import math
+
+print(math.pi)
+print(math.ceil(5.1))
