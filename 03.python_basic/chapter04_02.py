@@ -106,3 +106,14 @@ for i in range(2,10):
     for j in range(1,10):
         print('{:4d}'.format(i * j),end='')
     print()
+
+
+# 변환 예제
+
+name2 = 'Aceman'
+print('reversed',reversed(name2))
+print('list',list(reversed(name2)))
+print('tuple',tuple(reversed(name2)))
+print('set',set(reversed(name2)))
+
+
